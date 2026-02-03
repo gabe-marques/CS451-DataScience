@@ -1,0 +1,201 @@
+product_id,product_name,price,quantity
+101,Spinach Organic,2.93 USD,223
+102,Sausage Mini,$7.40,425
+103,Frozen Fries Family Pack,11.32 USD,109
+104,Chocolate Gluten-Free,4.09 USD,162
+105,Chicken Thighs Classic,4.71 USD,189
+106,Apple Family Pack,2.69 USD,10
+107,Cake Slice Gluten-Free,3.96 USD,144
+108,Shrimp,11.10 USD,121
+109,Frozen Berries Mini,6.22 USD,254
+110,Cereal Family Pack,7.43 USD,163
+111,Meatballs Premium,12.12 USD,262
+112,Cereal Gluten-Free,9.60 USD,131
+113,Frozen Nuggets Zero Sugar,10.21 USD,193
+114,Peanut Butter Zero Sugar,7.18 USD,124
+115,Peach Mini,0.79 USD,105
+116,Onion,1.67 USD,10
+117,Coffee,1.37 USD,316
+118,Tilapia,5.28 USD,135
+119,Canned Beans Classic,1.72 USD,226
+120,Flour Family Pack,7.02 USD,164
+121,Frozen Soup Large,8.79 USD,285
+122,Mozzarella Classic,1.57 USD,23
+123,Pasta Value,6.72 USD,198
+124,Strawberry Mini,$2.68,248
+125,Pork Chops Large,13.86 USD,185
+126,Crackers Gluten-Free,1.71 USD,112
+127,Flour Classic,1.11 USD,27
+128,Sour Cream Value,4.66 USD,121
+129,Frozen Fries Zero Sugar,7.77 USD,10
+130,Frozen Waffles Mini,9.29 USD,245
+131,Ice Cream Gluten-Free,5.74 USD,222
+132,Pie Slice Mini,3.58 USD,256
+133,Cocoa Zero Sugar,3.96 USD,95
+134,Cookies Premium,4.94 USD,81
+135,Frozen Dinner Value,6.46 USD,227
+136,Sparkling Water Value,4.83 USD,223
+137,Crab Zero Sugar,20.50 USD,16
+138,Pie Slice Premium,4.49 USD,117
+139,Tea,2.54 USD,322
+140,Frozen Waffles Large,8.88 USD,250
+141,Muffin Premium,3.25 USD,157
+142,Mango Organic,0.86 USD,70
+143,Cake Slice Premium,6.34 USD,93
+144,Cod Value,4.46 USD,141
+145,Frozen Dinner Gluten-Free,8.46 USD,52
+146,Soda Organic,1.14 USD,289
+147,Spices Value,4.69 USD,279
+148,Chips Gluten-Free,4.03 USD,73
+149,Cookies Classic,2.82 USD,350
+150,Onion Mini,1.01 USD,138
+151,Tuna Family Pack,12.74 USD,180
+152,Blueberry Family Pack,2.91 USD,137
+153,Ham Zero Sugar,8.76 USD,81
+154,Pretzels Mini,1.12 USD,147
+155,Coffee Organic,4.35 USD,17
+156,Canned Beans Gluten-Free,9.10 USD,148
+157,Orange Large,0.79 USD,171
+158,Milk Large,7.27 USD,200
+159,Shrimp Premium,14.85 USD,41
+160,Apple Premium,1.35 USD,46
+161,Spices Organic,5.87 USD,196
+162,Donut Zero Sugar,4.25 USD,73
+163,Frozen Nuggets Zero Sugar,9.62 USD,160
+164,Sour Cream Zero Sugar,3.47 USD,290
+165,Juice Organic,2.02 USD,66
+166,Muffin Zero Sugar,6.80 USD,102
+167,Soda Classic,3.42 USD,266
+168,Donut,1.84 USD,15
+169,Granola Bar,$3.22,161
+170,Steak Gluten-Free,9.03 USD,390
+171,Bagel Large,6.96 USD,206
+172,Spinach Family Pack,2.25 USD,260
+173,Crab Value,15.17 USD,139
+174,Mango Large,0.60 USD,65
+175,Nuts Premium,3.38 USD,42
+176,Donut,6.78 USD,201
+177,Rice Premium,9.19 USD,203
+178,Croissant Classic,6.22 USD,339
+179,Pepper Premium,0.98 USD,147
+180,Cottage Cheese Gluten-Free,6.66 USD,205
+181,Tea Premium,2.10 USD,168
+182,Brownie Value,6.89 USD,74
+183,Granola Bar Zero Sugar,3.42 USD,202
+184,Ice Cream,3.94 USD,274
+185,Tortilla Gluten-Free,2.71 USD,237
+186,Sardines Value,10.96 USD,114
+187,Chocolate Organic,3.56 USD,424
+188,Frozen Dumplings Gluten-Free,10.66 USD,155
+189,Bagel,6.88 USD,287
+190,Carrot Gluten-Free,2.82 USD,149
+191,Ice Pops,7.74 USD,284
+192,Frozen Berries Family Pack,10.93 USD,161
+193,Pie Slice Zero Sugar,1.37 USD,167
+194,Kale,2.08 USD,270
+195,Tuna Gluten-Free,15.28 USD,356
+196,Salmon Zero Sugar,17.01 USD,158
+197,Sour Cream Large,6.00 USD,143
+198,Trout Classic,10.46 USD,112
+199,Frozen Dumplings Premium,10.04 USD,99
+200,Pear Premium,2.89 USD,118
+201,Grape,0.52 USD,131
+202,Carrot Large,0.64 USD,257
+203,Bagel Gluten-Free,5.43 USD,226
+204,Banana Zero Sugar,0.86 USD,244
+205,Mango Large,2.38 USD,242
+206,Cheddar Large,6.48 USD,286
+207,Tortilla Zero Sugar,6.08 USD,110
+208,Steak Organic,10.31 USD,199
+209,Frozen Berries Mini,2.78 USD,32
+210,Spinach Gluten-Free,0.79 USD,33
+211,Chicken Thighs Family Pack,8.23 USD,189
+212,Chips Classic,5.74 USD,167
+213,Milkshake Gluten-Free,1.14 USD,182
+214,Chicken Thighs Large,7.49 USD,234
+215,Cookies Zero Sugar,1.38 USD,310
+216,Muffin Premium,5.24 USD,180
+217,Trail Mix Classic,1.25 USD,165
+218,Meatballs Classic,7.43 USD,116
+219,Cookies Organic,2.16 USD,258
+220,Zucchini Classic,3.29 USD,123
+221,Trout Classic,$11.29,154
+222,Chips Large,3.38 USD,237
+223,Cod Gluten-Free,8.07 USD,187
+224,Chips Family Pack,4.02 USD,182
+225,Frozen Dinner Value,5.58 USD,103
+226,Cereal,9.00 USD,210
+227,Cereal Value,$5.53,376
+228,Soda Gluten-Free,3.74 USD,63
+229,Crackers Premium,1.36 USD,80
+230,Coffee Gluten-Free,4.16 USD,250
+231,Olive Oil Large,8.40 USD,201
+232,Frozen Dumplings Classic,7.20 USD,303
+233,Tortilla Gluten-Free,1.86 USD,113
+234,Tortilla Large,3.98 USD,260
+235,Butter Large,3.35 USD,210
+236,Sour Cream Zero Sugar,1.85 USD,94
+237,Cookies Premium,4.74 USD,123
+238,Ice Cream Classic,3.30 USD,181
+239,Frozen Waffles Large,9.07 USD,102
+240,Frozen Nuggets Family Pack,3.02 USD,281
+241,Bacon Premium,8.40 USD,245
+242,Popcorn Organic,2.57 USD,136
+243,Crab Organic,18.20 USD,165
+244,Ice Pops Classic,11.10 USD,265
+245,Sports Drink,2.57 USD,174
+246,Rice Organic,4.49 USD,358
+247,Chocolate Gluten-Free,4.16 USD,227
+248,Nuts Value,4.33 USD,106
+249,Donut Classic,6.80 USD,85
+250,Cookies Organic,1.53 USD,275
+251,Cod,18.07 USD,140
+252,Crackers Value,2.80 USD,192
+253,Frozen Fries Premium,11.57 USD,10
+254,Ham Gluten-Free,9.87 USD,181
+255,Donut Premium,2.25 USD,53
+256,Pie Slice Zero Sugar,1.31 USD,52
+257,Tuna Zero Sugar,17.82 USD,291
+258,Croissant Mini,$6.10,151
+259,Tortilla Classic,2.27 USD,146
+260,Canned Beans Family Pack,8.92 USD,369
+261,Mango Gluten-Free,1.04 USD,267
+262,Spices Large,3.66 USD,324
+263,Soda Value,1.44 USD,294
+264,Croissant Large,2.89 USD,252
+265,Canned Beans Zero Sugar,$6.80,319
+266,Frozen Fries Premium,3.99 USD,111
+267,Mussels Zero Sugar,$20.02,100
+268,Cream Family Pack,1.88 USD,52
+269,Sour Cream Zero Sugar,2.22 USD,23
+270,Sour Cream Classic,6.93 USD,190
+271,Frozen Pizza Organic,2.15 USD,42
+272,Apple Large,0.55 USD,77
+273,Mozzarella Organic,2.31 USD,160
+274,Milk Value,4.13 USD,10
+275,Frozen Dumplings Mini,7.31 USD,173
+276,Pineapple,1.66 USD,181
+277,Mussels Classic,21.34 USD,361
+278,Blueberry Gluten-Free,1.28 USD,199
+279,Chicken Breast Classic,14.61 USD,190
+280,Frozen Dinner Gluten-Free,11.76 USD,319
+281,Coffee Gluten-Free,1.39 USD,158
+282,Pork Chops Organic,6.98 USD,197
+283,Potato Family Pack,0.65 USD,268
+284,Cookies,3.59 USD,113
+285,Frozen Dinner Mini,5.48 USD,268
+286,Sports Drink Organic,5.38 USD,58
+287,Tortilla Zero Sugar,6.08 USD,240
+288,Canned Beans Value,5.12 USD,240
+289,Tea Classic,2.67 USD,144
+290,Onion Large,1.26 USD,163
+291,Chicken Thighs Zero Sugar,6.70 USD,330
+292,Apple Family Pack,1.68 USD,170
+293,Pepper Large,0.77 USD,228
+294,Brownie Organic,1.45 USD,184
+295,Frozen Pizza Value,5.66 USD,120
+296,Chocolate Zero Sugar,1.70 USD,126
+297,Coffee Organic,3.73 USD,215
+298,Lemonade,1.49 USD,307
+299,Orange Mini,2.53 USD,63
+300,Grape,2.19 USD,322

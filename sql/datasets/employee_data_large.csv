@@ -1,0 +1,501 @@
+employee_id,name,age,salary,department,status
+1,David Doe,38.0,74918.95,Sales,Active
+2,Mia Thompson,33.0,105693.2,Data,On Leave
+3,Liam Taylor,40.0,33206.51,Security,Inactive
+4,Sarah Santos,48.0,65975.53,Sales,Active
+5,Michael King,32.0,43142.98,R&D,Active
+6,Alice Doe,32.0,45684.12,IT,Active
+7,Michael Harris,48.0,44031.57,Security,Active
+8,Liam Gomez,41.0,40038.76,Finance,Active
+9,Jane Marques,30.0,55104.27,Marketing,Active
+10,Ethan Santos,39.0,40504.46,Marketing,Active
+11,Elijah Martin,30.0,59555.26,Operations,Inactive
+12,Mateo Martinez,30.0,53232.09,Marketing,Active
+13,John Thomas,36.0,49829.79,Finance,Inactive
+14,Evelyn Lewis,18.0,39432.78,Operations,On Leave
+15,Mia Anderson,18.0,44272.99,Operations,Active
+16,Sophia Lewis,,70571.87,Customer Support,Inactive
+17,Sarah Miller,25.0,64558.11,IT,Active
+18,Henry Wilson,37.0,38478.53,HR,Active
+19,Benjamin Lee,26.0,56093.0,Legal,Active
+20,Noah Johnson,21.0,70473.04,Customer Support,Active
+21,Camila Santos,47.0,30203.35,Product,Active
+22,David Hall,32.0,65524.28,Data,Active
+23,Michael Marques,35.0,42962.45,IT,Active
+24,James Walker,21.0,66151.94,IT,Active
+25,Pedro White,29.0,41475.55,IT,Active
+26,Emily Johnson,35.0,28804.63,Sales,Active
+27,Liam Robinson,24.0,30649.15,Product,Active
+28,Michael Martin,37.0,55095.85,Customer Support,On Leave
+29,Sarah Hall,,59331.93,Product,Active
+30,Mia Scott,31.0,39477.62,Data,Active
+31,Charlotte Thomas,29.0,67745.1,HR,Inactive
+32,Charlotte Lee,51.0,30286.82,R&D,Inactive
+33,Sophia Martinez,34.0,52937.76,Product,Active
+34,Emily Thomas,24.0,35459.42,IT,Active
+35,Rafael Thompson,41.0,43124.97,HR,Active
+36,Daniel Scott,23.0,55082.62,R&D,Active
+37,Henry Martinez,36.0,40088.92,Data,Active
+38,Ana Martin,18.0,47353.95,Finance,Active
+39,Logan Brown,22.0,77049.43,R&D,Active
+40,Liam Johnson,36.0,44271.12,Finance,Active
+41,Logan Allen,41.0,72583.45,Data,Active
+42,Mia Davis,36.0,36483.03,Marketing,Active
+43,Sophia Pereira,33.0,65214.13,R&D,Active
+44,Logan Harris,31.0,89728.98,Finance,Active
+45,Mariana Allen,21.0,22809.32,Data,On Leave
+46,Camila Anderson,28.0,40990.13,Legal,Active
+47,Noah Taylor,30.0,66301.99,IT,Active
+48,Ava Marques,44.0,50459.89,Sales,Active
+49,Rafael Garcia,37.0,61691.48,R&D,Inactive
+50,Julia King,18.0,43853.3,Operations,Active
+51,Julia Allen,37.0,55843.39,Product,Active
+52,Charlotte Martin,31.0,51303.43,Finance,Active
+53,Laura Gomez,28.0,81529.79,Data,Active
+54,Mariana Miller,40.0,59221.94,Customer Support,Active
+55,Bob Moore,43.0,60971.45,Security,Active
+56,Chris Thomas,42.0,46903.29,Finance,Active
+57,Evelyn Davis,26.0,45676.44,R&D,Active
+58,Henry Hall,,46565.01,Finance,Active
+59,Camila Silva,37.0,62196.76,HR,Active
+60,Noah Marques,43.0,46754.02,Customer Support,Active
+61,John Moore,30.0,59959.3,R&D,Inactive
+62,Rafael Martinez,32.0,112015.25,Sales,Active
+63,Amelia Moore,24.0,73489.19,HR,Inactive
+64,James King,23.0,48334.06,Customer Support,Inactive
+65,Daniel Scott,41.0,82489.38,Product,Active
+66,John Garcia,46.0,46965.74,Operations,Active
+67,Lucas Jackson,33.0,26546.59,Product,Active
+68,Lucas Wilson,43.0,38069.54,Finance,Active
+69,Isabella Gomez,37.0,28147.75,Security,Inactive
+70,Ethan Anderson,28.0,47904.77,Finance,On Leave
+71,Charlotte Thomas,37.0,54526.74,Marketing,Active
+72,Rafael Silva,48.0,97416.71,Data,Inactive
+73,John Rodriguez,34.0,60744.06,Customer Support,Active
+74,Mariana Doe,48.0,50177.14,Finance,Active
+75,David Walker,18.0,72423.92,Marketing,Active
+76,Isabella Thompson,41.0,24986.79,Product,Active
+77,Mariana Wright,35.0,58833.41,Data,Active
+78,Pedro Miller,31.0,70955.12,Security,Active
+79,Michael Flores,35.0,32289.42,Marketing,On Leave
+80,Emily Santos,18.0,80847.01,Product,Active
+81,Laura Taylor,32.0,60990.52,Security,Active
+82,Gabriel Marques,37.0,46847.33,R&D,Active
+83,Daniel Garcia,47.0,67607.46,Finance,Active
+84,Beatriz King,29.0,119939.47,HR,Active
+85,Sophia Santos,27.0,57736.98,Product,Active
+86,Ethan Clark,29.0,59093.56,Operations,Active
+87,Harper Walker,42.0,46130.23,HR,Active
+88,Mateo Silva,37.0,40237.49,Data,Active
+89,Mateo Moore,29.0,72447.51,HR,Active
+90,Ava Martin,39.0,40149.72,Product,Active
+91,Emily Lewis,35.0,55550.52,Finance,Active
+92,Jane Marques,43.0,45835.76,Data,Active
+93,Liam Martin,28.0,64064.33,Security,Active
+94,John Davis,31.0,60887.41,Data,Inactive
+95,Bob Martin,30.0,77896.71,Data,Active
+96,Emily Johnson,21.0,,IT,Active
+97,Amelia Davis,37.0,49293.32,Data,Active
+98,Lucas Thompson,36.0,38462.26,Sales,Active
+99,Mia Flores,34.0,,Data,Active
+100,Sophia Santos,32.0,61824.51,Data,Active
+101,Laura Pereira,21.0,70611.34,Marketing,Active
+102,Pedro Torres,30.0,39231.77,Finance,On Leave
+103,Ava Torres,31.0,73450.14,R&D,Inactive
+104,Elijah White,27.0,87070.49,Marketing,Active
+105,Sarah Wilson,33.0,62611.37,Product,Active
+106,Evelyn Lee,38.0,104493.33,Operations,Active
+107,Evelyn Young,51.0,41322.97,Security,Active
+108,Camila Brown,36.0,35044.39,IT,Contract
+109,Sarah Brown,36.0,29069.59,Sales,Active
+110,Harper Lewis,33.0,91456.21,Finance,Active
+111,Sarah Thompson,18.0,68120.13,Operations,Active
+112,Ethan White,34.0,53132.57,Security,On Leave
+113,Rafael Wright,35.0,59753.86,Customer Support,Active
+114,Laura King,56.0,36536.93,IT,Active
+115,Olivia Martinez,32.0,127518.05,HR,Inactive
+116,Camila Thompson,37.0,56682.87,IT,Inactive
+117,Emily Wright,34.0,56290.9,Legal,Active
+118,Ana Wilson,23.0,69843.92,Operations,Inactive
+119,Bob Santos,44.0,64109.85,Legal,Active
+120,John Miller,41.0,58592.35,Legal,Active
+121,Ava Thomas,41.0,41082.35,Finance,Active
+122,Elijah Flores,26.0,63896.12,IT,Active
+123,Gabriel Harris,47.0,104684.73,Finance,Active
+124,Harper Brown,21.0,86759.66,R&D,Active
+125,Daniel Hall,39.0,94619.16,Finance,Active
+126,John Hall,54.0,45300.55,Security,Active
+127,Noah Scott,25.0,38316.59,Operations,Active
+128,James King,29.0,51842.97,Sales,On Leave
+129,Ana Flores,35.0,55243.38,R&D,Active
+130,Chris White,29.0,79456.66,Sales,Active
+131,James Harris,20.0,29960.57,IT,Active
+132,Bob Santos,35.0,92535.04,HR,Active
+133,Bob Rodriguez,24.0,51261.6,Data,Inactive
+134,Bob Brown,38.0,46657.62,Security,Active
+135,Julia Torres,26.0,38016.04,Data,Active
+136,Lucas Silva,48.0,30357.54,Customer Support,Inactive
+137,Daniel Brown,27.0,72266.05,Legal,On Leave
+138,Lucas Miller,31.0,55584.59,Operations,Active
+139,Olivia Davis,41.0,34493.07,Sales,Active
+140,Emily Thompson,23.0,34431.34,Customer Support,Active
+141,Harper Moore,36.0,48169.21,Marketing,Active
+142,Pedro Thompson,46.0,97164.19,Finance,Active
+143,Julia Johnson,20.0,49471.05,Legal,Active
+144,Michael Young,36.0,32013.08,Sales,Inactive
+145,Julia Pereira,36.0,49711.42,R&D,Active
+146,Beatriz Rodriguez,41.0,49244.19,Operations,Inactive
+147,Mariana Wright,23.0,21080.2,Data,Active
+148,Logan Thompson,22.0,53156.56,Security,Active
+149,Noah Allen,39.0,49969.74,Data,Active
+150,Laura Clark,37.0,69125.03,Finance,Active
+151,Camila Rodriguez,36.0,103480.1,Product,Active
+152,Emily Smith,37.0,80362.08,Customer Support,Active
+153,Camila Pereira,28.0,49310.33,Data,Active
+154,Sarah Davis,36.0,36780.24,Operations,Active
+155,Rafael Harris,37.0,133342.45,Sales,Active
+156,Lucas Garcia,28.0,55310.97,Data,Active
+157,Laura Lee,51.0,54441.13,HR,Active
+158,Emily Thompson,38.0,53720.84,R&D,Inactive
+159,Charlotte Robinson,23.0,58065.66,Marketing,Active
+160,Daniel Wright,40.0,51507.04,Product,Inactive
+161,Rafael Clark,25.0,44321.2,Legal,Active
+162,Beatriz Smith,41.0,44738.93,Operations,On Leave
+163,Ana Clark,44.0,53558.85,Product,Contract
+164,Sarah Taylor,27.0,44792.74,HR,Active
+165,Noah Moore,43.0,42213.86,Data,Active
+166,Sarah Marques,38.0,56232.52,Sales,Active
+167,Chris Martinez,41.0,49551.01,Data,Active
+168,James Harris,51.0,91710.99,R&D,Contract
+169,Amelia Harris,32.0,21421.72,Security,Inactive
+170,Noah Gomez,27.0,79382.04,Finance,Inactive
+171,Mariana Garcia,26.0,83795.1,Data,Active
+172,Bob Miller,27.0,26220.94,Customer Support,Active
+173,Evelyn Martinez,33.0,48052.98,Sales,Active
+174,Alice Smith,37.0,47571.81,IT,Inactive
+175,Amelia Taylor,36.0,33102.73,Marketing,Active
+176,Noah Thomas,41.0,41264.76,Marketing,Active
+177,Mateo Marques,34.0,36728.14,Finance,Inactive
+178,Evelyn Marques,47.0,100036.93,R&D,Inactive
+179,John Moore,32.0,75168.49,Sales,Active
+180,Emily Anderson,58.0,84545.43,Sales,Active
+181,Rafael Johnson,40.0,69743.9,HR,Active
+182,Charlotte Marques,26.0,36491.4,Legal,On Leave
+183,Chris King,24.0,45090.1,IT,Active
+184,Laura Johnson,38.0,64297.83,Customer Support,Active
+185,Isabella Walker,32.0,35321.79,R&D,On Leave
+186,Alice Lee,40.0,69532.49,Operations,Active
+187,Sophia Thompson,38.0,49805.77,Data,Active
+188,Sarah Lee,33.0,47515.57,Security,Active
+189,Ana Young,26.0,69482.9,Security,Active
+190,Chris Thompson,20.0,63290.6,Legal,Active
+191,Daniel Jackson,30.0,47746.54,Customer Support,Active
+192,Elijah Doe,42.0,81288.95,Product,Active
+193,Mariana Wright,36.0,37109.48,Security,Contract
+194,Elijah Thompson,23.0,67210.01,Security,Active
+195,Mia Thomas,36.0,66675.01,IT,Active
+196,Sarah Hall,37.0,48613.61,Customer Support,On Leave
+197,Alice Torres,26.0,60727.17,Data,Inactive
+198,Liam White,35.0,34965.26,Sales,Active
+199,Camila Lee,35.0,74862.58,R&D,Inactive
+200,Isabella Martin,24.0,50781.34,Product,Active
+201,Liam Doe,37.0,45118.47,Customer Support,Active
+202,Ethan Allen,39.0,78210.03,Finance,Inactive
+203,Amelia Martinez,44.0,42339.67,Marketing,Active
+204,Emily Martinez,43.0,33091.73,Security,Active
+205,Benjamin Gomez,22.0,31419.37,Operations,Active
+206,Harper Santos,26.0,66976.93,HR,Active
+207,Amelia Doe,39.0,34608.33,R&D,Active
+208,David Garcia,39.0,100125.33,R&D,Active
+209,Olivia Garcia,39.0,26142.69,HR,Active
+210,Alice Wilson,65.0,98101.68,Operations,Inactive
+211,Evelyn Lee,39.0,58329.08,Sales,Active
+212,Logan King,44.0,52373.21,Data,Active
+213,Lucas Moore,43.0,44769.32,Operations,Active
+214,Henry Pereira,40.0,62298.81,Legal,Active
+215,Ethan Garcia,31.0,53467.42,Data,Active
+216,Alice King,41.0,79710.42,Operations,Active
+217,John Silva,27.0,56386.2,Marketing,Active
+218,Rafael White,32.0,57102.64,Customer Support,Active
+219,Charlotte King,,47702.34,Finance,Inactive
+220,Emily Lewis,35.0,53107.27,HR,Active
+221,Logan Moore,55.0,60338.8,Sales,Active
+222,Isabella Gomez,18.0,29775.5,R&D,On Leave
+223,Isabella Young,40.0,33797.26,Sales,Active
+224,Logan Allen,19.0,70272.96,Data,Active
+225,James Marques,30.0,57515.11,HR,Active
+226,Laura White,44.0,50797.67,Data,Active
+227,Elijah Hall,35.0,54527.03,Data,Active
+228,Olivia Pereira,24.0,61184.77,Product,Active
+229,Isabella Allen,28.0,44850.24,Marketing,Active
+230,Ana Smith,40.0,41257.71,Marketing,Active
+231,Isabella Robinson,27.0,58020.16,Operations,Active
+232,Sophia King,36.0,38467.52,HR,Active
+233,Julia Rodriguez,34.0,62497.91,IT,Active
+234,Camila Wright,28.0,29854.65,Product,Contract
+235,Mateo Harris,53.0,77668.46,HR,Active
+236,Lucas Torres,40.0,63921.38,Sales,Active
+237,Daniel Miller,18.0,59255.29,Legal,Active
+238,James Gomez,36.0,76415.58,HR,Contract
+239,Amelia Miller,28.0,97043.64,Product,Active
+240,Ava Clark,42.0,77267.56,HR,Active
+241,Liam White,27.0,,HR,Active
+242,Chris Doe,33.0,34618.66,Operations,Active
+243,Alice Thompson,39.0,43534.7,IT,Contract
+244,Gabriel Davis,,54673.36,Product,Active
+245,Camila Young,23.0,64937.51,Marketing,Active
+246,Pedro White,31.0,42023.73,Finance,Inactive
+247,Henry Flores,30.0,57836.1,IT,Active
+248,Harper Thompson,28.0,41590.04,IT,Active
+249,Chris Smith,50.0,43737.83,Legal,Active
+250,Sarah King,38.0,33112.58,Finance,Active
+251,Liam Jackson,23.0,39217.11,IT,Active
+252,Beatriz Scott,42.0,33755.9,Sales,Active
+253,Bob Marques,53.0,38501.19,Data,Active
+254,Ava Moore,43.0,78336.95,Marketing,Active
+255,Camila Taylor,20.0,38859.6,IT,Inactive
+256,Camila Silva,30.0,,Marketing,Active
+257,Ana Rodriguez,45.0,64386.63,Operations,Active
+258,Mateo Gomez,28.0,57797.03,HR,Active
+259,Evelyn Marques,38.0,40117.77,Product,Active
+260,Mateo Thomas,41.0,69224.38,Operations,Active
+261,Gabriel Wright,26.0,44290.56,Marketing,Inactive
+262,Noah Thompson,33.0,56539.99,IT,Active
+263,Mia Silva,,132724.34,Finance,Active
+264,Mariana Thompson,25.0,52385.18,Marketing,Active
+265,Mia Wright,32.0,81003.34,IT,Active
+266,Emily Robinson,23.0,42356.97,Security,Active
+267,Ava Martinez,49.0,53516.97,Customer Support,Active
+268,Amelia Rodriguez,21.0,100687.83,Legal,Active
+269,Rafael Miller,,43501.97,Sales,On Leave
+270,Laura Anderson,35.0,102166.28,Security,Active
+271,Liam Hall,47.0,69404.93,Sales,Contract
+272,Chris Harris,21.0,44495.2,R&D,Active
+273,Emily Young,44.0,,R&D,Active
+274,Elijah Lewis,34.0,76144.95,Operations,Active
+275,Rafael Scott,25.0,67348.34,Legal,Active
+276,Elijah Brown,38.0,31270.22,Product,Active
+277,Sophia Young,36.0,42003.24,Sales,Inactive
+278,Henry Doe,29.0,49680.53,R&D,Inactive
+279,Pedro Hall,35.0,52783.2,Legal,Active
+280,Gabriel Smith,31.0,67321.52,HR,Active
+281,Benjamin Clark,35.0,57652.87,Product,Active
+282,Henry Young,40.0,33949.5,Marketing,On Leave
+283,Rafael Santos,48.0,61887.24,Security,Active
+284,Liam Flores,23.0,67084.28,Data,On Leave
+285,Liam Martinez,53.0,65902.17,Legal,Active
+286,Evelyn Flores,18.0,79084.58,Finance,Contract
+287,Jane Hall,33.0,72538.5,R&D,Active
+288,Amelia Allen,39.0,63621.9,Data,Active
+289,Daniel Scott,37.0,52862.1,Marketing,On Leave
+290,Laura Santos,28.0,30292.75,Marketing,Active
+291,Jane Allen,32.0,62967.02,R&D,Inactive
+292,Julia Pereira,30.0,58261.15,Customer Support,Active
+293,Mariana Wright,29.0,59578.65,Customer Support,Active
+294,Evelyn Taylor,42.0,34652.95,Data,Active
+295,Camila Jackson,37.0,37109.57,Sales,Inactive
+296,Bob Garcia,28.0,78323.54,R&D,Active
+297,Henry Rodriguez,42.0,53431.5,Security,Active
+298,Sophia Scott,37.0,68770.16,R&D,Active
+299,Logan Lewis,41.0,54716.0,Sales,Active
+300,Henry Martinez,40.0,54743.54,Sales,Active
+301,Elijah Garcia,27.0,75237.07,Operations,Active
+302,Michael Torres,29.0,45224.05,Product,Active
+303,Jane Santos,41.0,56029.98,IT,Active
+304,Bob Lee,39.0,46083.2,Sales,Active
+305,Liam Davis,34.0,46533.43,IT,Active
+306,Alice Doe,35.0,48619.98,Finance,Inactive
+307,Ava White,45.0,58556.47,Product,Active
+308,Jane Anderson,29.0,45818.26,Data,Contract
+309,Ava Taylor,39.0,84079.21,Product,Active
+310,Gabriel Moore,32.0,39612.0,Legal,Contract
+311,Pedro Harris,32.0,50746.35,Security,On Leave
+312,Camila Garcia,44.0,46448.25,Operations,Active
+313,Charlotte Thomas,41.0,,Customer Support,Active
+314,David Thomas,41.0,58034.57,Product,Active
+315,Isabella Wilson,46.0,77741.58,Legal,Inactive
+316,Julia Doe,34.0,32210.7,Finance,Active
+317,Isabella Pereira,40.0,59484.29,R&D,Contract
+318,Henry Allen,31.0,73966.74,Legal,Active
+319,Ethan Davis,37.0,55759.29,Product,Active
+320,Julia Thompson,33.0,78662.21,Customer Support,Inactive
+321,Sarah Clark,35.0,45204.37,Sales,Active
+322,David Pereira,39.0,88722.75,Security,Active
+323,Alice Lee,27.0,121129.36,Sales,Active
+324,Rafael King,53.0,47715.26,Data,Active
+325,Charlotte Davis,25.0,46354.52,Data,Active
+326,Lucas Lewis,23.0,90100.82,Legal,Active
+327,John Young,44.0,94169.37,Security,Active
+328,Mariana Wilson,41.0,45116.31,HR,Active
+329,Evelyn Walker,40.0,46767.07,Customer Support,On Leave
+330,Camila Anderson,40.0,49088.27,R&D,Active
+331,Evelyn Jackson,34.0,33841.47,HR,Active
+332,Beatriz Martinez,26.0,39280.04,Customer Support,Active
+333,Rafael Torres,35.0,38122.15,Operations,Active
+334,Camila King,28.0,41409.72,R&D,Active
+335,Julia Martinez,43.0,53522.65,Customer Support,Active
+336,Logan Thompson,33.0,58804.59,Customer Support,Active
+337,Michael Martinez,27.0,93216.05,Security,Active
+338,Mateo Thompson,31.0,38199.44,Sales,Active
+339,Camila Pereira,38.0,,Operations,Active
+340,Henry Lewis,29.0,50266.99,Customer Support,Active
+341,Jane Flores,27.0,53246.52,Operations,Active
+342,Logan Jackson,36.0,68609.54,Data,Active
+343,Mariana Harris,36.0,36572.33,Finance,Active
+344,Benjamin Garcia,29.0,61935.17,Operations,Active
+345,Amelia Martinez,30.0,57426.33,IT,Contract
+346,Mia Marques,36.0,64367.1,Data,Active
+347,John Silva,21.0,59946.57,R&D,On Leave
+348,Ethan Miller,21.0,127944.91,Sales,Active
+349,Ava Young,28.0,43338.25,Sales,Active
+350,Mariana Marques,32.0,44988.0,Sales,Inactive
+351,Ava Torres,,43560.27,Sales,Active
+352,Mariana Wright,47.0,44604.19,Customer Support,On Leave
+353,Jane Miller,42.0,43343.61,Sales,Active
+354,James Martin,33.0,82137.98,Security,Active
+355,Harper Thompson,34.0,89069.88,Security,Active
+356,Isabella Walker,25.0,44366.45,Operations,Inactive
+357,Gabriel Marques,34.0,40484.54,IT,Active
+358,Beatriz Lee,31.0,63894.94,Legal,Active
+359,Evelyn Marques,37.0,44655.02,Marketing,Active
+360,Amelia Lee,27.0,,Product,Active
+361,Camila Martinez,39.0,58164.07,Legal,On Leave
+362,Isabella Garcia,48.0,31872.2,Legal,Inactive
+363,Liam Moore,,93118.38,Operations,Active
+364,Ethan Rodriguez,38.0,101575.45,Data,On Leave
+365,David Santos,,43718.38,Sales,Active
+366,Olivia White,30.0,47301.84,Customer Support,Inactive
+367,Sophia Torres,36.0,59877.31,Operations,Active
+368,Mia Silva,34.0,60904.35,Data,Active
+369,James Wilson,35.0,68219.83,Customer Support,Active
+370,Ethan Robinson,27.0,109488.15,Security,Active
+371,Liam Walker,34.0,50922.92,Marketing,Inactive
+372,Olivia Clark,38.0,40970.02,Finance,Active
+373,John Santos,47.0,33430.98,Product,Active
+374,Laura Martinez,43.0,41947.52,Finance,Active
+375,Alice Brown,53.0,53551.85,Operations,Inactive
+376,Ana Robinson,27.0,101528.54,Sales,Active
+377,Laura Flores,42.0,45199.26,Product,Active
+378,Sarah Smith,36.0,58590.38,Legal,Active
+379,Pedro Robinson,,53865.85,HR,Active
+380,Gabriel Torres,27.0,82120.06,IT,Contract
+381,Mateo Lewis,26.0,131193.2,Data,Active
+382,Olivia Brown,29.0,44990.02,R&D,Active
+383,Noah Torres,18.0,45647.14,HR,Active
+384,David Davis,29.0,78077.43,Sales,Inactive
+385,Harper Flores,27.0,68779.57,Operations,Active
+386,Emily Pereira,35.0,103398.69,Legal,Contract
+387,Bob Anderson,37.0,66461.28,Operations,Active
+388,Chris Pereira,51.0,47774.52,Sales,Active
+389,Isabella Miller,,66617.94,Finance,Active
+390,Ava Moore,29.0,79861.27,Product,Active
+391,Ana Young,26.0,72198.08,HR,Inactive
+392,Liam Silva,38.0,64701.9,Customer Support,Inactive
+393,Henry Wright,22.0,78695.1,Legal,Active
+394,Mateo Clark,50.0,81572.99,Product,Active
+395,Julia King,45.0,87882.47,Product,Contract
+396,Isabella Pereira,30.0,67985.41,Data,Active
+397,Bob Wilson,19.0,51098.41,Data,On Leave
+398,Sophia Harris,46.0,57030.97,Legal,Active
+399,Noah Miller,33.0,82642.4,Marketing,Active
+400,Daniel Thompson,45.0,40703.63,Product,Active
+401,Olivia Marques,20.0,61638.11,Data,Active
+402,Emily Thomas,29.0,47208.6,Security,Active
+403,John Young,34.0,54724.17,Finance,Active
+404,Mateo Torres,34.0,84749.76,Marketing,Active
+405,James Johnson,30.0,57923.86,IT,On Leave
+406,Liam Robinson,40.0,55064.08,Finance,On Leave
+407,James Scott,24.0,33659.49,Security,Inactive
+408,Emily Martin,33.0,70346.53,Finance,Active
+409,Noah White,35.0,67908.7,Operations,Active
+410,Evelyn Moore,39.0,115513.09,Operations,Active
+411,Rafael Martin,40.0,48643.7,Marketing,Active
+412,Chris Martinez,24.0,58495.35,IT,Active
+413,Chris Davis,20.0,59117.62,IT,Active
+414,Bob Thomas,45.0,94099.56,Product,Active
+415,Isabella Pereira,37.0,52399.2,Data,Active
+416,James Wright,27.0,59734.05,Customer Support,On Leave
+417,David Scott,48.0,67021.17,Sales,Active
+418,Isabella Allen,35.0,57832.91,IT,Active
+419,Mia Gomez,45.0,46339.42,Security,Active
+420,Rafael Flores,35.0,57984.53,Data,Active
+421,Mateo Miller,53.0,78886.95,Marketing,Inactive
+422,Alice King,50.0,37824.78,Sales,Active
+423,Logan Garcia,32.0,56757.29,Security,Inactive
+424,Jane Miller,43.0,42402.29,Legal,Active
+425,Liam Pereira,40.0,82311.52,HR,Active
+426,Julia Doe,46.0,31789.29,Customer Support,Active
+427,Mia Pereira,25.0,44550.44,Customer Support,Active
+428,Alice Jackson,40.0,61822.59,R&D,Active
+429,Gabriel Silva,44.0,93707.49,Operations,Active
+430,Mateo Martinez,18.0,52943.86,IT,Active
+431,Olivia King,23.0,44608.52,Operations,Active
+432,Mariana Miller,18.0,104652.96,Finance,Active
+433,Gabriel Lee,32.0,32636.78,Security,Active
+434,Elijah Lewis,40.0,25094.85,Operations,Active
+435,Logan Wilson,48.0,63196.55,Product,Contract
+436,Mariana Wright,35.0,,Product,Active
+437,Elijah Flores,49.0,37894.77,Sales,Inactive
+438,James Allen,22.0,69419.62,Marketing,Active
+439,Ana Johnson,,59002.21,IT,Active
+440,Camila Miller,34.0,44470.11,IT,Active
+441,Logan Garcia,37.0,34609.85,Product,Active
+442,Logan Moore,34.0,73523.48,Marketing,Active
+443,Harper Gomez,18.0,68020.91,Data,Active
+444,John Santos,33.0,52328.08,Sales,Active
+445,Camila Young,22.0,103396.14,Finance,Active
+446,Bob White,40.0,37252.35,R&D,Active
+447,Beatriz Walker,37.0,31763.28,Data,Active
+448,Mariana Wright,26.0,42524.35,Customer Support,Active
+449,Bob Harris,29.0,53318.83,R&D,Inactive
+450,Mia Marques,24.0,58992.69,Product,Contract
+451,Laura Robinson,33.0,49789.9,R&D,Active
+452,Mariana Wright,43.0,61280.65,Customer Support,Active
+453,David Doe,25.0,34960.05,Finance,Active
+454,Ava Thomas,39.0,89797.97,HR,Active
+455,Isabella Marques,29.0,52640.82,Legal,Active
+456,John Marques,27.0,80101.79,Sales,Active
+457,Elijah Miller,33.0,61080.86,Operations,Active
+458,Liam Moore,25.0,63567.88,Customer Support,Active
+459,Camila Moore,29.0,66132.7,Sales,Active
+460,Chris Flores,23.0,63366.97,Finance,Active
+461,James Gomez,52.0,67843.1,Data,Active
+462,Mia Young,34.0,86267.08,Data,Active
+463,Gabriel Torres,28.0,58033.89,Product,Inactive
+464,Ava Scott,36.0,69435.35,R&D,Active
+465,Ana Anderson,33.0,52501.26,Legal,Active
+466,Henry White,,89683.41,Data,Active
+467,Lucas Taylor,40.0,42755.91,Finance,Active
+468,Emily Martinez,41.0,101755.6,Marketing,Active
+469,Elijah Lewis,,53420.23,HR,Active
+470,Lucas Martinez,29.0,32834.29,Customer Support,Active
+471,John Robinson,32.0,56660.72,Product,Active
+472,Isabella Flores,18.0,42686.24,Marketing,Active
+473,Chris Wright,20.0,72709.35,Marketing,Active
+474,Rafael Torres,46.0,43113.08,HR,On Leave
+475,Benjamin Lewis,49.0,46343.48,Finance,Active
+476,Ana Santos,32.0,27963.65,HR,Contract
+477,Henry Scott,39.0,46244.27,IT,Active
+478,Logan White,37.0,23193.85,Finance,Active
+479,Ava Pereira,62.0,31120.87,Finance,Active
+480,Henry Martin,44.0,70696.06,Operations,Active
+481,Elijah Johnson,33.0,71326.99,Sales,On Leave
+482,Logan Torres,25.0,62875.39,Marketing,Active
+483,Henry Hall,20.0,38621.27,R&D,Active
+484,Mariana Wright,36.0,53279.19,Security,Active
+485,Alice Taylor,27.0,54108.1,Customer Support,Inactive
+486,Lucas Lewis,21.0,36118.93,IT,Active
+487,Sarah Wright,28.0,91691.91,IT,On Leave
+488,Sarah Silva,24.0,73649.81,Customer Support,Active
+489,Camila Smith,49.0,50144.42,Legal,Active
+490,Chris Young,42.0,54688.57,Security,Active
+491,Chris Davis,34.0,,HR,Active
+492,Gabriel Garcia,47.0,26513.06,Legal,Active
+493,Amelia Allen,35.0,49686.47,Legal,Active
+494,Michael Lewis,26.0,42672.31,Data,Active
+495,Rafael Hall,48.0,38155.8,Operations,Active
+496,Logan Flores,39.0,49100.03,Sales,Active
+497,Rafael Johnson,25.0,101639.78,Customer Support,Active
+498,Emily Thompson,32.0,67798.48,Security,Active
+499,James Martin,26.0,44359.73,Marketing,Contract
+500,Michael King,22.0,66197.9,Customer Support,Active

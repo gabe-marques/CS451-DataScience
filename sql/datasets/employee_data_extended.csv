@@ -1,0 +1,501 @@
+employee_id,name,age,salary,department,status,dept_id,email,hire_date
+1,David Doe,38.0,74918.95,Sales,Active,2,david.doe@example.com,2018-03-27
+2,Mia Thompson,33.0,105693.2,Data,On Leave,11,mia.thompson@example.com,2024-03-10
+3,Liam Taylor,40.0,33206.51,Security,Inactive,12,liam.taylor@example.com,2019-02-04
+4,Sarah Santos,48.0,65975.53,Sales,Active,2,sarah.santos@example.com,2018-03-08
+5,Michael King,32.0,43142.98,R&D,Active,8,michael.king@example.com,2025-08-11
+6,Alice Doe,32.0,45684.12,IT,Active,3,alice.doe@example.com,2016-03-01
+7,Michael Harris,48.0,44031.57,Security,Active,12,michael.harris@example.com,2017-09-03
+8,Liam Gomez,41.0,40038.76,Finance,Active,5,liam.gomez@example.com,2020-09-01
+9,Jane Marques,30.0,55104.27,Marketing,Active,1,jane.marques@example.com,2017-09-02
+10,Ethan Santos,39.0,40504.46,Marketing,Active,1,ethan.santos@example.com,2017-09-01
+11,Elijah Martin,30.0,59555.26,Operations,Inactive,6,elijah.martin@example.com,2022-05-05
+12,Mateo Martinez,30.0,53232.09,Marketing,Active,1,mateo.martinez@example.com,2024-03-10
+13,John Thomas,36.0,49829.79,Finance,Inactive,5,john.thomas@example.com,2022-08-13
+14,Evelyn Lewis,18.0,39432.78,Operations,On Leave,6,evelyn.lewis@example.com,2017-01-05
+15,Mia Anderson,18.0,44272.99,Operations,Active,6,mia.anderson@example.com,2024-12-13
+16,Sophia Lewis,,70571.87,Customer Support,Inactive,7,sophia.lewis@example.com,2025-03-23
+17,Sarah Miller,25.0,64558.11,IT,Active,3,sarah.miller@example.com,2018-10-23
+18,Henry Wilson,37.0,38478.53,HR,Active,4,henry.wilson@example.com,2021-07-12
+19,Benjamin Lee,26.0,56093.0,Legal,Active,9,benjamin.lee@example.com,2020-11-07
+20,Noah Johnson,21.0,70473.04,Customer Support,Active,7,noah.johnson@example.com,2022-09-06
+21,Camila Santos,47.0,30203.35,Product,Active,10,camila.santos@example.com,2025-10-11
+22,David Hall,32.0,65524.28,Data,Active,11,david.hall@example.com,2025-11-11
+23,Michael Marques,35.0,42962.45,IT,Active,3,michael.marques@example.com,2021-02-02
+24,James Walker,21.0,66151.94,IT,Active,3,james.walker@example.com,2016-12-01
+25,Pedro White,29.0,41475.55,IT,Active,3,pedro.white@example.com,2019-05-06
+26,Emily Johnson,35.0,28804.63,Sales,Active,2,emily.johnson@example.com,2020-02-19
+27,Liam Robinson,24.0,30649.15,Product,Active,10,liam.robinson@example.com,2021-05-06
+28,Michael Martin,37.0,55095.85,Customer Support,On Leave,7,michael.martin@example.com,2025-08-08
+29,Sarah Hall,,59331.93,Product,Active,10,sarah.hall@example.com,2018-08-16
+30,Mia Scott,31.0,39477.62,Data,Active,11,mia.scott@example.com,2021-05-13
+31,Charlotte Thomas,29.0,67745.1,HR,Inactive,4,charlotte.thomas@example.com,2018-11-28
+32,Charlotte Lee,51.0,30286.82,R&D,Inactive,8,charlotte.lee@example.com,2025-03-11
+33,Sophia Martinez,34.0,52937.76,Product,Active,10,sophia.martinez@example.com,2025-11-24
+34,Emily Thomas,24.0,35459.42,IT,Active,3,emily.thomas@example.com,2024-09-14
+35,Rafael Thompson,41.0,43124.97,HR,Active,4,rafael.thompson@example.com,2019-05-22
+36,Daniel Scott,23.0,55082.62,R&D,Active,8,daniel.scott@example.com,2018-10-11
+37,Henry Martinez,36.0,40088.92,Data,Active,11,henry.martinez@example.com,2020-04-23
+38,Ana Martin,18.0,47353.95,Finance,Active,5,ana.martin@example.com,2023-06-23
+39,Logan Brown,22.0,77049.43,R&D,Active,8,logan.brown@example.com,2016-02-04
+40,Liam Johnson,36.0,44271.12,Finance,Active,5,liam.johnson@example.com,2025-12-13
+41,Logan Allen,41.0,72583.45,Data,Active,11,logan.allen@example.com,2024-10-31
+42,Mia Davis,36.0,36483.03,Marketing,Active,1,mia.davis@example.com,2016-03-27
+43,Sophia Pereira,33.0,65214.13,R&D,Active,8,sophia.pereira@example.com,2019-10-27
+44,Logan Harris,31.0,89728.98,Finance,Active,5,logan.harris@example.com,2022-11-16
+45,Mariana Allen,21.0,22809.32,Data,On Leave,11,mariana.allen@example.com,2018-05-31
+46,Camila Anderson,28.0,40990.13,Legal,Active,9,camila.anderson@example.com,2017-06-05
+47,Noah Taylor,30.0,66301.99,IT,Active,3,noah.taylor@example.com,2022-04-17
+48,Ava Marques,44.0,50459.89,Sales,Active,2,ava.marques@example.com,2025-01-12
+49,Rafael Garcia,37.0,61691.48,R&D,Inactive,8,rafael.garcia@example.com,2025-07-21
+50,Julia King,18.0,43853.3,Operations,Active,6,julia.king@example.com,2016-02-07
+51,Julia Allen,37.0,55843.39,Product,Active,10,julia.allen@example.com,2024-09-28
+52,Charlotte Martin,31.0,51303.43,Finance,Active,5,charlotte.martin@example.com,2021-08-09
+53,Laura Gomez,28.0,81529.79,Data,Active,11,laura.gomez@example.com,2018-05-18
+54,Mariana Miller,40.0,59221.94,Customer Support,Active,7,mariana.miller@example.com,2022-03-03
+55,Bob Moore,43.0,60971.45,Security,Active,12,bob.moore@example.com,2025-12-15
+56,Chris Thomas,42.0,46903.29,Finance,Active,5,chris.thomas@example.com,2018-10-05
+57,Evelyn Davis,26.0,45676.44,R&D,Active,8,evelyn.davis@example.com,2018-10-08
+58,Henry Hall,,46565.01,Finance,Active,5,henry.hall@example.com,2022-12-27
+59,Camila Silva,37.0,62196.76,HR,Active,4,camila.silva@example.com,2016-06-06
+60,Noah Marques,43.0,46754.02,Customer Support,Active,7,noah.marques@example.com,2024-03-15
+61,John Moore,30.0,59959.3,R&D,Inactive,8,john.moore@example.com,2022-07-11
+62,Rafael Martinez,32.0,112015.25,Sales,Active,2,rafael.martinez@example.com,2024-05-30
+63,Amelia Moore,24.0,73489.19,HR,Inactive,4,amelia.moore@example.com,2018-04-22
+64,James King,23.0,48334.06,Customer Support,Inactive,7,james.king@example.com,2024-06-20
+65,Daniel Scott,41.0,82489.38,Product,Active,10,daniel.scott@example.com,2020-06-26
+66,John Garcia,46.0,46965.74,Operations,Active,6,john.garcia@example.com,2017-04-29
+67,Lucas Jackson,33.0,26546.59,Product,Active,10,lucas.jackson@example.com,2025-01-04
+68,Lucas Wilson,43.0,38069.54,Finance,Active,5,lucas.wilson@example.com,2023-01-18
+69,Isabella Gomez,37.0,28147.75,Security,Inactive,12,isabella.gomez@example.com,2017-09-06
+70,Ethan Anderson,28.0,47904.77,Finance,On Leave,5,ethan.anderson@example.com,2018-06-19
+71,Charlotte Thomas,37.0,54526.74,Marketing,Active,1,charlotte.thomas@example.com,2018-09-08
+72,Rafael Silva,48.0,97416.71,Data,Inactive,11,rafael.silva@example.com,2025-08-19
+73,John Rodriguez,34.0,60744.06,Customer Support,Active,7,john.rodriguez@example.com,2024-11-10
+74,Mariana Doe,48.0,50177.14,Finance,Active,5,mariana.doe@example.com,2019-06-18
+75,David Walker,18.0,72423.92,Marketing,Active,1,david.walker@example.com,2020-08-31
+76,Isabella Thompson,41.0,24986.79,Product,Active,10,isabella.thompson@example.com,2018-11-07
+77,Mariana Wright,35.0,58833.41,Data,Active,11,mariana.wright@example.com,2023-06-05
+78,Pedro Miller,31.0,70955.12,Security,Active,12,pedro.miller@example.com,2017-08-11
+79,Michael Flores,35.0,32289.42,Marketing,On Leave,1,michael.flores@example.com,2019-05-21
+80,Emily Santos,18.0,80847.01,Product,Active,10,emily.santos@example.com,2022-01-22
+81,Laura Taylor,32.0,60990.52,Security,Active,12,laura.taylor@example.com,2024-10-09
+82,Gabriel Marques,37.0,46847.33,R&D,Active,8,gabriel.marques@example.com,2022-05-10
+83,Daniel Garcia,47.0,67607.46,Finance,Active,5,daniel.garcia@example.com,2025-05-24
+84,Beatriz King,29.0,119939.47,HR,Active,4,beatriz.king@example.com,2025-04-22
+85,Sophia Santos,27.0,57736.98,Product,Active,10,sophia.santos@example.com,2023-03-08
+86,Ethan Clark,29.0,59093.56,Operations,Active,6,ethan.clark@example.com,2018-10-14
+87,Harper Walker,42.0,46130.23,HR,Active,4,harper.walker@example.com,2022-10-30
+88,Mateo Silva,37.0,40237.49,Data,Active,11,mateo.silva@example.com,2017-12-04
+89,Mateo Moore,29.0,72447.51,HR,Active,4,mateo.moore@example.com,2019-05-01
+90,Ava Martin,39.0,40149.72,Product,Active,10,ava.martin@example.com,2023-07-30
+91,Emily Lewis,35.0,55550.52,Finance,Active,5,emily.lewis@example.com,2024-07-03
+92,Jane Marques,43.0,45835.76,Data,Active,11,jane.marques@example.com,2020-03-02
+93,Liam Martin,28.0,64064.33,Security,Active,12,liam.martin@example.com,2021-03-26
+94,John Davis,31.0,60887.41,Data,Inactive,11,john.davis@example.com,2019-11-11
+95,Bob Martin,30.0,77896.71,Data,Active,11,bob.martin@example.com,2020-10-16
+96,Emily Johnson,21.0,,IT,Active,3,emily.johnson@example.com,2021-02-14
+97,Amelia Davis,37.0,49293.32,Data,Active,11,amelia.davis@example.com,2022-12-01
+98,Lucas Thompson,36.0,38462.26,Sales,Active,2,lucas.thompson@example.com,2023-07-03
+99,Mia Flores,34.0,,Data,Active,11,mia.flores@example.com,2025-09-30
+100,Sophia Santos,32.0,61824.51,Data,Active,11,sophia.santos@example.com,2020-05-17
+101,Laura Pereira,21.0,70611.34,Marketing,Active,1,laura.pereira@example.com,2016-10-30
+102,Pedro Torres,30.0,39231.77,Finance,On Leave,5,pedro.torres@example.com,2022-11-18
+103,Ava Torres,31.0,73450.14,R&D,Inactive,8,ava.torres@example.com,2020-12-24
+104,Elijah White,27.0,87070.49,Marketing,Active,1,elijah.white@example.com,2024-05-29
+105,Sarah Wilson,33.0,62611.37,Product,Active,10,sarah.wilson@example.com,2017-06-19
+106,Evelyn Lee,38.0,104493.33,Operations,Active,6,evelyn.lee@example.com,2022-06-13
+107,Evelyn Young,51.0,41322.97,Security,Active,12,evelyn.young@example.com,2020-08-04
+108,Camila Brown,36.0,35044.39,IT,Contract,3,camila.brown@example.com,2020-03-11
+109,Sarah Brown,36.0,29069.59,Sales,Active,2,sarah.brown@example.com,2021-08-24
+110,Harper Lewis,33.0,91456.21,Finance,Active,5,harper.lewis@example.com,2022-11-03
+111,Sarah Thompson,18.0,68120.13,Operations,Active,6,sarah.thompson@example.com,2024-07-04
+112,Ethan White,34.0,53132.57,Security,On Leave,12,ethan.white@example.com,2018-05-08
+113,Rafael Wright,35.0,59753.86,Customer Support,Active,7,rafael.wright@example.com,2018-12-06
+114,Laura King,56.0,36536.93,IT,Active,3,laura.king@example.com,2021-06-26
+115,Olivia Martinez,32.0,127518.05,HR,Inactive,4,olivia.martinez@example.com,2019-06-19
+116,Camila Thompson,37.0,56682.87,IT,Inactive,3,camila.thompson@example.com,2021-09-06
+117,Emily Wright,34.0,56290.9,Legal,Active,9,emily.wright@example.com,2017-12-31
+118,Ana Wilson,23.0,69843.92,Operations,Inactive,6,ana.wilson@example.com,2019-01-28
+119,Bob Santos,44.0,64109.85,Legal,Active,9,bob.santos@example.com,2019-04-01
+120,John Miller,41.0,58592.35,Legal,Active,9,john.miller@example.com,2025-12-02
+121,Ava Thomas,41.0,41082.35,Finance,Active,5,ava.thomas@example.com,2024-07-17
+122,Elijah Flores,26.0,63896.12,IT,Active,3,elijah.flores@example.com,2024-05-17
+123,Gabriel Harris,47.0,104684.73,Finance,Active,5,gabriel.harris@example.com,2021-02-18
+124,Harper Brown,21.0,86759.66,R&D,Active,8,harper.brown@example.com,2020-08-31
+125,Daniel Hall,39.0,94619.16,Finance,Active,5,daniel.hall@example.com,2016-09-13
+126,John Hall,54.0,45300.55,Security,Active,12,john.hall@example.com,2017-12-21
+127,Noah Scott,25.0,38316.59,Operations,Active,6,noah.scott@example.com,2024-12-13
+128,James King,29.0,51842.97,Sales,On Leave,2,james.king@example.com,2021-04-03
+129,Ana Flores,35.0,55243.38,R&D,Active,8,ana.flores@example.com,2025-11-15
+130,Chris White,29.0,79456.66,Sales,Active,2,chris.white@example.com,2021-12-01
+131,James Harris,20.0,29960.57,IT,Active,3,james.harris@example.com,2019-10-10
+132,Bob Santos,35.0,92535.04,HR,Active,4,bob.santos@example.com,2018-09-28
+133,Bob Rodriguez,24.0,51261.6,Data,Inactive,11,bob.rodriguez@example.com,2025-03-07
+134,Bob Brown,38.0,46657.62,Security,Active,12,bob.brown@example.com,2019-09-15
+135,Julia Torres,26.0,38016.04,Data,Active,11,julia.torres@example.com,2017-06-17
+136,Lucas Silva,48.0,30357.54,Customer Support,Inactive,7,lucas.silva@example.com,2018-10-13
+137,Daniel Brown,27.0,72266.05,Legal,On Leave,9,daniel.brown@example.com,2022-06-15
+138,Lucas Miller,31.0,55584.59,Operations,Active,6,lucas.miller@example.com,2017-04-30
+139,Olivia Davis,41.0,34493.07,Sales,Active,2,olivia.davis@example.com,2016-11-30
+140,Emily Thompson,23.0,34431.34,Customer Support,Active,7,emily.thompson@example.com,2020-07-29
+141,Harper Moore,36.0,48169.21,Marketing,Active,1,harper.moore@example.com,2016-11-01
+142,Pedro Thompson,46.0,97164.19,Finance,Active,5,pedro.thompson@example.com,2019-12-06
+143,Julia Johnson,20.0,49471.05,Legal,Active,9,julia.johnson@example.com,2019-03-24
+144,Michael Young,36.0,32013.08,Sales,Inactive,2,michael.young@example.com,2019-11-30
+145,Julia Pereira,36.0,49711.42,R&D,Active,8,julia.pereira@example.com,2020-11-16
+146,Beatriz Rodriguez,41.0,49244.19,Operations,Inactive,6,beatriz.rodriguez@example.com,2017-11-07
+147,Mariana Wright,23.0,21080.2,Data,Active,11,mariana.wright@example.com,2020-06-03
+148,Logan Thompson,22.0,53156.56,Security,Active,12,logan.thompson@example.com,2019-08-13
+149,Noah Allen,39.0,49969.74,Data,Active,11,noah.allen@example.com,2023-12-15
+150,Laura Clark,37.0,69125.03,Finance,Active,5,laura.clark@example.com,2022-12-12
+151,Camila Rodriguez,36.0,103480.1,Product,Active,10,camila.rodriguez@example.com,2024-09-21
+152,Emily Smith,37.0,80362.08,Customer Support,Active,7,emily.smith@example.com,2022-09-09
+153,Camila Pereira,28.0,49310.33,Data,Active,11,camila.pereira@example.com,2017-03-18
+154,Sarah Davis,36.0,36780.24,Operations,Active,6,sarah.davis@example.com,2021-01-25
+155,Rafael Harris,37.0,133342.45,Sales,Active,2,rafael.harris@example.com,2023-06-04
+156,Lucas Garcia,28.0,55310.97,Data,Active,11,lucas.garcia@example.com,2024-05-31
+157,Laura Lee,51.0,54441.13,HR,Active,4,laura.lee@example.com,2017-10-24
+158,Emily Thompson,38.0,53720.84,R&D,Inactive,8,emily.thompson@example.com,2018-03-27
+159,Charlotte Robinson,23.0,58065.66,Marketing,Active,1,charlotte.robinson@example.com,2024-08-14
+160,Daniel Wright,40.0,51507.04,Product,Inactive,10,daniel.wright@example.com,2020-11-07
+161,Rafael Clark,25.0,44321.2,Legal,Active,9,rafael.clark@example.com,2020-07-10
+162,Beatriz Smith,41.0,44738.93,Operations,On Leave,6,beatriz.smith@example.com,2020-12-09
+163,Ana Clark,44.0,53558.85,Product,Contract,10,ana.clark@example.com,2017-09-25
+164,Sarah Taylor,27.0,44792.74,HR,Active,4,sarah.taylor@example.com,2022-04-11
+165,Noah Moore,43.0,42213.86,Data,Active,11,noah.moore@example.com,2024-01-29
+166,Sarah Marques,38.0,56232.52,Sales,Active,2,sarah.marques@example.com,2024-05-14
+167,Chris Martinez,41.0,49551.01,Data,Active,11,chris.martinez@example.com,2016-04-20
+168,James Harris,51.0,91710.99,R&D,Contract,8,james.harris@example.com,2023-02-24
+169,Amelia Harris,32.0,21421.72,Security,Inactive,12,amelia.harris@example.com,2016-11-29
+170,Noah Gomez,27.0,79382.04,Finance,Inactive,5,noah.gomez@example.com,2025-09-01
+171,Mariana Garcia,26.0,83795.1,Data,Active,11,mariana.garcia@example.com,2020-10-27
+172,Bob Miller,27.0,26220.94,Customer Support,Active,7,bob.miller@example.com,2023-10-02
+173,Evelyn Martinez,33.0,48052.98,Sales,Active,2,evelyn.martinez@example.com,2022-03-21
+174,Alice Smith,37.0,47571.81,IT,Inactive,3,alice.smith@example.com,2025-07-08
+175,Amelia Taylor,36.0,33102.73,Marketing,Active,1,amelia.taylor@example.com,2025-09-25
+176,Noah Thomas,41.0,41264.76,Marketing,Active,1,noah.thomas@example.com,2018-10-15
+177,Mateo Marques,34.0,36728.14,Finance,Inactive,5,mateo.marques@example.com,2020-10-29
+178,Evelyn Marques,47.0,100036.93,R&D,Inactive,8,evelyn.marques@example.com,2021-01-15
+179,John Moore,32.0,75168.49,Sales,Active,2,john.moore@example.com,2017-10-10
+180,Emily Anderson,58.0,84545.43,Sales,Active,2,emily.anderson@example.com,2025-01-14
+181,Rafael Johnson,40.0,69743.9,HR,Active,4,rafael.johnson@example.com,2019-06-30
+182,Charlotte Marques,26.0,36491.4,Legal,On Leave,9,charlotte.marques@example.com,2016-11-15
+183,Chris King,24.0,45090.1,IT,Active,3,chris.king@example.com,2017-07-18
+184,Laura Johnson,38.0,64297.83,Customer Support,Active,7,laura.johnson@example.com,2021-02-17
+185,Isabella Walker,32.0,35321.79,R&D,On Leave,8,isabella.walker@example.com,2024-10-24
+186,Alice Lee,40.0,69532.49,Operations,Active,6,alice.lee@example.com,2022-04-13
+187,Sophia Thompson,38.0,49805.77,Data,Active,11,sophia.thompson@example.com,2018-02-23
+188,Sarah Lee,33.0,47515.57,Security,Active,12,sarah.lee@example.com,2018-12-19
+189,Ana Young,26.0,69482.9,Security,Active,12,ana.young@example.com,2025-10-04
+190,Chris Thompson,20.0,63290.6,Legal,Active,9,chris.thompson@example.com,2016-07-12
+191,Daniel Jackson,30.0,47746.54,Customer Support,Active,7,daniel.jackson@example.com,2025-12-10
+192,Elijah Doe,42.0,81288.95,Product,Active,10,elijah.doe@example.com,2025-01-21
+193,Mariana Wright,36.0,37109.48,Security,Contract,12,mariana.wright@example.com,2022-10-13
+194,Elijah Thompson,23.0,67210.01,Security,Active,12,elijah.thompson@example.com,2025-06-06
+195,Mia Thomas,36.0,66675.01,IT,Active,3,mia.thomas@example.com,2017-07-10
+196,Sarah Hall,37.0,48613.61,Customer Support,On Leave,7,sarah.hall@example.com,2025-06-04
+197,Alice Torres,26.0,60727.17,Data,Inactive,11,alice.torres@example.com,2018-02-15
+198,Liam White,35.0,34965.26,Sales,Active,2,liam.white@example.com,2021-06-17
+199,Camila Lee,35.0,74862.58,R&D,Inactive,8,camila.lee@example.com,2020-11-19
+200,Isabella Martin,24.0,50781.34,Product,Active,10,isabella.martin@example.com,2021-02-14
+201,Liam Doe,37.0,45118.47,Customer Support,Active,7,liam.doe@example.com,2018-09-03
+202,Ethan Allen,39.0,78210.03,Finance,Inactive,5,ethan.allen@example.com,2023-10-21
+203,Amelia Martinez,44.0,42339.67,Marketing,Active,1,amelia.martinez@example.com,2023-06-04
+204,Emily Martinez,43.0,33091.73,Security,Active,12,emily.martinez@example.com,2025-07-15
+205,Benjamin Gomez,22.0,31419.37,Operations,Active,6,benjamin.gomez@example.com,2021-01-25
+206,Harper Santos,26.0,66976.93,HR,Active,4,harper.santos@example.com,2021-06-24
+207,Amelia Doe,39.0,34608.33,R&D,Active,8,amelia.doe@example.com,2025-01-12
+208,David Garcia,39.0,100125.33,R&D,Active,8,david.garcia@example.com,2025-03-11
+209,Olivia Garcia,39.0,26142.69,HR,Active,4,olivia.garcia@example.com,2022-06-30
+210,Alice Wilson,65.0,98101.68,Operations,Inactive,6,alice.wilson@example.com,2024-03-15
+211,Evelyn Lee,39.0,58329.08,Sales,Active,2,evelyn.lee@example.com,2021-01-18
+212,Logan King,44.0,52373.21,Data,Active,11,logan.king@example.com,2019-11-18
+213,Lucas Moore,43.0,44769.32,Operations,Active,6,lucas.moore@example.com,2024-08-21
+214,Henry Pereira,40.0,62298.81,Legal,Active,9,henry.pereira@example.com,2023-10-09
+215,Ethan Garcia,31.0,53467.42,Data,Active,11,ethan.garcia@example.com,2018-06-04
+216,Alice King,41.0,79710.42,Operations,Active,6,alice.king@example.com,2016-06-22
+217,John Silva,27.0,56386.2,Marketing,Active,1,john.silva@example.com,2021-08-27
+218,Rafael White,32.0,57102.64,Customer Support,Active,7,rafael.white@example.com,2024-05-31
+219,Charlotte King,,47702.34,Finance,Inactive,5,charlotte.king@example.com,2018-06-21
+220,Emily Lewis,35.0,53107.27,HR,Active,4,emily.lewis@example.com,2023-09-03
+221,Logan Moore,55.0,60338.8,Sales,Active,2,logan.moore@example.com,2020-02-20
+222,Isabella Gomez,18.0,29775.5,R&D,On Leave,8,isabella.gomez@example.com,2019-05-11
+223,Isabella Young,40.0,33797.26,Sales,Active,2,isabella.young@example.com,2017-09-23
+224,Logan Allen,19.0,70272.96,Data,Active,11,logan.allen@example.com,2025-05-05
+225,James Marques,30.0,57515.11,HR,Active,4,james.marques@example.com,2018-04-04
+226,Laura White,44.0,50797.67,Data,Active,11,laura.white@example.com,2018-10-16
+227,Elijah Hall,35.0,54527.03,Data,Active,11,elijah.hall@example.com,2019-04-25
+228,Olivia Pereira,24.0,61184.77,Product,Active,10,olivia.pereira@example.com,2018-11-05
+229,Isabella Allen,28.0,44850.24,Marketing,Active,1,isabella.allen@example.com,2017-08-17
+230,Ana Smith,40.0,41257.71,Marketing,Active,1,ana.smith@example.com,2019-07-18
+231,Isabella Robinson,27.0,58020.16,Operations,Active,6,isabella.robinson@example.com,2020-09-18
+232,Sophia King,36.0,38467.52,HR,Active,4,sophia.king@example.com,2021-07-08
+233,Julia Rodriguez,34.0,62497.91,IT,Active,3,julia.rodriguez@example.com,2017-07-25
+234,Camila Wright,28.0,29854.65,Product,Contract,10,camila.wright@example.com,2023-10-17
+235,Mateo Harris,53.0,77668.46,HR,Active,4,mateo.harris@example.com,2019-02-11
+236,Lucas Torres,40.0,63921.38,Sales,Active,2,lucas.torres@example.com,2025-03-06
+237,Daniel Miller,18.0,59255.29,Legal,Active,9,daniel.miller@example.com,2019-04-18
+238,James Gomez,36.0,76415.58,HR,Contract,4,james.gomez@example.com,2024-08-17
+239,Amelia Miller,28.0,97043.64,Product,Active,10,amelia.miller@example.com,2019-07-11
+240,Ava Clark,42.0,77267.56,HR,Active,4,ava.clark@example.com,2021-01-21
+241,Liam White,27.0,,HR,Active,4,liam.white@example.com,2019-09-21
+242,Chris Doe,33.0,34618.66,Operations,Active,6,chris.doe@example.com,2019-11-14
+243,Alice Thompson,39.0,43534.7,IT,Contract,3,alice.thompson@example.com,2022-03-09
+244,Gabriel Davis,,54673.36,Product,Active,10,gabriel.davis@example.com,2022-12-05
+245,Camila Young,23.0,64937.51,Marketing,Active,1,camila.young@example.com,2024-09-13
+246,Pedro White,31.0,42023.73,Finance,Inactive,5,pedro.white@example.com,2021-09-09
+247,Henry Flores,30.0,57836.1,IT,Active,3,henry.flores@example.com,2018-03-02
+248,Harper Thompson,28.0,41590.04,IT,Active,3,harper.thompson@example.com,2025-11-22
+249,Chris Smith,50.0,43737.83,Legal,Active,9,chris.smith@example.com,2022-11-02
+250,Sarah King,38.0,33112.58,Finance,Active,5,sarah.king@example.com,2019-09-30
+251,Liam Jackson,23.0,39217.11,IT,Active,3,liam.jackson@example.com,2025-09-05
+252,Beatriz Scott,42.0,33755.9,Sales,Active,2,beatriz.scott@example.com,2025-08-01
+253,Bob Marques,53.0,38501.19,Data,Active,11,bob.marques@example.com,2016-10-17
+254,Ava Moore,43.0,78336.95,Marketing,Active,1,ava.moore@example.com,2016-03-13
+255,Camila Taylor,20.0,38859.6,IT,Inactive,3,camila.taylor@example.com,2016-06-11
+256,Camila Silva,30.0,,Marketing,Active,1,camila.silva@example.com,2022-11-07
+257,Ana Rodriguez,45.0,64386.63,Operations,Active,6,ana.rodriguez@example.com,2023-02-09
+258,Mateo Gomez,28.0,57797.03,HR,Active,4,mateo.gomez@example.com,2023-03-29
+259,Evelyn Marques,38.0,40117.77,Product,Active,10,evelyn.marques@example.com,2022-04-20
+260,Mateo Thomas,41.0,69224.38,Operations,Active,6,mateo.thomas@example.com,2018-11-08
+261,Gabriel Wright,26.0,44290.56,Marketing,Inactive,1,gabriel.wright@example.com,2017-09-02
+262,Noah Thompson,33.0,56539.99,IT,Active,3,noah.thompson@example.com,2025-04-11
+263,Mia Silva,,132724.34,Finance,Active,5,mia.silva@example.com,2025-02-16
+264,Mariana Thompson,25.0,52385.18,Marketing,Active,1,mariana.thompson@example.com,2018-06-04
+265,Mia Wright,32.0,81003.34,IT,Active,3,mia.wright@example.com,2017-09-05
+266,Emily Robinson,23.0,42356.97,Security,Active,12,emily.robinson@example.com,2019-10-02
+267,Ava Martinez,49.0,53516.97,Customer Support,Active,7,ava.martinez@example.com,2016-06-25
+268,Amelia Rodriguez,21.0,100687.83,Legal,Active,9,amelia.rodriguez@example.com,2017-08-15
+269,Rafael Miller,,43501.97,Sales,On Leave,2,rafael.miller@example.com,2019-10-20
+270,Laura Anderson,35.0,102166.28,Security,Active,12,laura.anderson@example.com,2018-05-21
+271,Liam Hall,47.0,69404.93,Sales,Contract,2,liam.hall@example.com,2023-05-14
+272,Chris Harris,21.0,44495.2,R&D,Active,8,chris.harris@example.com,2025-01-17
+273,Emily Young,44.0,,R&D,Active,8,emily.young@example.com,2025-02-02
+274,Elijah Lewis,34.0,76144.95,Operations,Active,6,elijah.lewis@example.com,2022-01-15
+275,Rafael Scott,25.0,67348.34,Legal,Active,9,rafael.scott@example.com,2023-01-13
+276,Elijah Brown,38.0,31270.22,Product,Active,10,elijah.brown@example.com,2020-12-09
+277,Sophia Young,36.0,42003.24,Sales,Inactive,2,sophia.young@example.com,2017-06-19
+278,Henry Doe,29.0,49680.53,R&D,Inactive,8,henry.doe@example.com,2022-05-08
+279,Pedro Hall,35.0,52783.2,Legal,Active,9,pedro.hall@example.com,2019-07-02
+280,Gabriel Smith,31.0,67321.52,HR,Active,4,gabriel.smith@example.com,2016-01-22
+281,Benjamin Clark,35.0,57652.87,Product,Active,10,benjamin.clark@example.com,2021-09-30
+282,Henry Young,40.0,33949.5,Marketing,On Leave,1,henry.young@example.com,2017-12-25
+283,Rafael Santos,48.0,61887.24,Security,Active,12,rafael.santos@example.com,2024-11-11
+284,Liam Flores,23.0,67084.28,Data,On Leave,11,liam.flores@example.com,2025-05-03
+285,Liam Martinez,53.0,65902.17,Legal,Active,9,liam.martinez@example.com,2017-08-15
+286,Evelyn Flores,18.0,79084.58,Finance,Contract,5,evelyn.flores@example.com,2016-04-17
+287,Jane Hall,33.0,72538.5,R&D,Active,8,jane.hall@example.com,2016-01-15
+288,Amelia Allen,39.0,63621.9,Data,Active,11,amelia.allen@example.com,2025-02-16
+289,Daniel Scott,37.0,52862.1,Marketing,On Leave,1,daniel.scott@example.com,2017-07-09
+290,Laura Santos,28.0,30292.75,Marketing,Active,1,laura.santos@example.com,2020-05-08
+291,Jane Allen,32.0,62967.02,R&D,Inactive,8,jane.allen@example.com,2016-07-27
+292,Julia Pereira,30.0,58261.15,Customer Support,Active,7,julia.pereira@example.com,2019-09-25
+293,Mariana Wright,29.0,59578.65,Customer Support,Active,7,mariana.wright@example.com,2023-11-08
+294,Evelyn Taylor,42.0,34652.95,Data,Active,11,evelyn.taylor@example.com,2020-01-25
+295,Camila Jackson,37.0,37109.57,Sales,Inactive,2,camila.jackson@example.com,2023-10-03
+296,Bob Garcia,28.0,78323.54,R&D,Active,8,bob.garcia@example.com,2022-11-20
+297,Henry Rodriguez,42.0,53431.5,Security,Active,12,henry.rodriguez@example.com,2021-03-04
+298,Sophia Scott,37.0,68770.16,R&D,Active,8,sophia.scott@example.com,2023-05-18
+299,Logan Lewis,41.0,54716.0,Sales,Active,2,logan.lewis@example.com,2024-10-15
+300,Henry Martinez,40.0,54743.54,Sales,Active,2,henry.martinez@example.com,2023-12-06
+301,Elijah Garcia,27.0,75237.07,Operations,Active,6,elijah.garcia@example.com,2022-12-01
+302,Michael Torres,29.0,45224.05,Product,Active,10,michael.torres@example.com,2023-01-07
+303,Jane Santos,41.0,56029.98,IT,Active,3,jane.santos@example.com,2017-08-11
+304,Bob Lee,39.0,46083.2,Sales,Active,2,bob.lee@example.com,2025-07-03
+305,Liam Davis,34.0,46533.43,IT,Active,3,liam.davis@example.com,2018-01-21
+306,Alice Doe,35.0,48619.98,Finance,Inactive,5,alice.doe@example.com,2019-06-28
+307,Ava White,45.0,58556.47,Product,Active,10,ava.white@example.com,2021-03-06
+308,Jane Anderson,29.0,45818.26,Data,Contract,11,jane.anderson@example.com,2017-04-05
+309,Ava Taylor,39.0,84079.21,Product,Active,10,ava.taylor@example.com,2021-12-07
+310,Gabriel Moore,32.0,39612.0,Legal,Contract,9,gabriel.moore@example.com,2017-10-29
+311,Pedro Harris,32.0,50746.35,Security,On Leave,12,pedro.harris@example.com,2025-03-26
+312,Camila Garcia,44.0,46448.25,Operations,Active,6,camila.garcia@example.com,2024-11-19
+313,Charlotte Thomas,41.0,,Customer Support,Active,7,charlotte.thomas@example.com,2021-06-11
+314,David Thomas,41.0,58034.57,Product,Active,10,david.thomas@example.com,2020-06-29
+315,Isabella Wilson,46.0,77741.58,Legal,Inactive,9,isabella.wilson@example.com,2017-01-09
+316,Julia Doe,34.0,32210.7,Finance,Active,5,julia.doe@example.com,2024-03-25
+317,Isabella Pereira,40.0,59484.29,R&D,Contract,8,isabella.pereira@example.com,2019-10-17
+318,Henry Allen,31.0,73966.74,Legal,Active,9,henry.allen@example.com,2018-06-18
+319,Ethan Davis,37.0,55759.29,Product,Active,10,ethan.davis@example.com,2025-12-13
+320,Julia Thompson,33.0,78662.21,Customer Support,Inactive,7,julia.thompson@example.com,2022-09-06
+321,Sarah Clark,35.0,45204.37,Sales,Active,2,sarah.clark@example.com,2016-09-26
+322,David Pereira,39.0,88722.75,Security,Active,12,david.pereira@example.com,2024-01-05
+323,Alice Lee,27.0,121129.36,Sales,Active,2,alice.lee@example.com,2023-07-03
+324,Rafael King,53.0,47715.26,Data,Active,11,rafael.king@example.com,2020-01-05
+325,Charlotte Davis,25.0,46354.52,Data,Active,11,charlotte.davis@example.com,2017-03-27
+326,Lucas Lewis,23.0,90100.82,Legal,Active,9,lucas.lewis@example.com,2020-12-21
+327,John Young,44.0,94169.37,Security,Active,12,john.young@example.com,2023-08-19
+328,Mariana Wilson,41.0,45116.31,HR,Active,4,mariana.wilson@example.com,2016-10-04
+329,Evelyn Walker,40.0,46767.07,Customer Support,On Leave,7,evelyn.walker@example.com,2017-08-19
+330,Camila Anderson,40.0,49088.27,R&D,Active,8,camila.anderson@example.com,2022-03-10
+331,Evelyn Jackson,34.0,33841.47,HR,Active,4,evelyn.jackson@example.com,2021-08-05
+332,Beatriz Martinez,26.0,39280.04,Customer Support,Active,7,beatriz.martinez@example.com,2025-01-18
+333,Rafael Torres,35.0,38122.15,Operations,Active,6,rafael.torres@example.com,2024-02-23
+334,Camila King,28.0,41409.72,R&D,Active,8,camila.king@example.com,2025-03-09
+335,Julia Martinez,43.0,53522.65,Customer Support,Active,7,julia.martinez@example.com,2020-08-28
+336,Logan Thompson,33.0,58804.59,Customer Support,Active,7,logan.thompson@example.com,2023-11-17
+337,Michael Martinez,27.0,93216.05,Security,Active,12,michael.martinez@example.com,2016-06-26
+338,Mateo Thompson,31.0,38199.44,Sales,Active,2,mateo.thompson@example.com,2018-12-11
+339,Camila Pereira,38.0,,Operations,Active,6,camila.pereira@example.com,2022-06-10
+340,Henry Lewis,29.0,50266.99,Customer Support,Active,7,henry.lewis@example.com,2023-08-20
+341,Jane Flores,27.0,53246.52,Operations,Active,6,jane.flores@example.com,2021-09-14
+342,Logan Jackson,36.0,68609.54,Data,Active,11,logan.jackson@example.com,2020-10-21
+343,Mariana Harris,36.0,36572.33,Finance,Active,5,mariana.harris@example.com,2018-05-01
+344,Benjamin Garcia,29.0,61935.17,Operations,Active,6,benjamin.garcia@example.com,2017-09-28
+345,Amelia Martinez,30.0,57426.33,IT,Contract,3,amelia.martinez@example.com,2024-10-02
+346,Mia Marques,36.0,64367.1,Data,Active,11,mia.marques@example.com,2017-06-03
+347,John Silva,21.0,59946.57,R&D,On Leave,8,john.silva@example.com,2020-05-08
+348,Ethan Miller,21.0,127944.91,Sales,Active,2,ethan.miller@example.com,2024-11-18
+349,Ava Young,28.0,43338.25,Sales,Active,2,ava.young@example.com,2017-06-23
+350,Mariana Marques,32.0,44988.0,Sales,Inactive,2,mariana.marques@example.com,2017-04-10
+351,Ava Torres,,43560.27,Sales,Active,2,ava.torres@example.com,2022-12-04
+352,Mariana Wright,47.0,44604.19,Customer Support,On Leave,7,mariana.wright@example.com,2019-04-25
+353,Jane Miller,42.0,43343.61,Sales,Active,2,jane.miller@example.com,2020-05-10
+354,James Martin,33.0,82137.98,Security,Active,12,james.martin@example.com,2022-04-03
+355,Harper Thompson,34.0,89069.88,Security,Active,12,harper.thompson@example.com,2019-10-16
+356,Isabella Walker,25.0,44366.45,Operations,Inactive,6,isabella.walker@example.com,2023-12-31
+357,Gabriel Marques,34.0,40484.54,IT,Active,3,gabriel.marques@example.com,2025-09-08
+358,Beatriz Lee,31.0,63894.94,Legal,Active,9,beatriz.lee@example.com,2025-04-30
+359,Evelyn Marques,37.0,44655.02,Marketing,Active,1,evelyn.marques@example.com,2021-06-14
+360,Amelia Lee,27.0,,Product,Active,10,amelia.lee@example.com,2019-07-19
+361,Camila Martinez,39.0,58164.07,Legal,On Leave,9,camila.martinez@example.com,2020-05-02
+362,Isabella Garcia,48.0,31872.2,Legal,Inactive,9,isabella.garcia@example.com,2019-04-20
+363,Liam Moore,,93118.38,Operations,Active,6,liam.moore@example.com,2020-06-01
+364,Ethan Rodriguez,38.0,101575.45,Data,On Leave,11,ethan.rodriguez@example.com,2016-02-17
+365,David Santos,,43718.38,Sales,Active,2,david.santos@example.com,2016-07-20
+366,Olivia White,30.0,47301.84,Customer Support,Inactive,7,olivia.white@example.com,2023-09-17
+367,Sophia Torres,36.0,59877.31,Operations,Active,6,sophia.torres@example.com,2019-05-07
+368,Mia Silva,34.0,60904.35,Data,Active,11,mia.silva@example.com,2023-12-11
+369,James Wilson,35.0,68219.83,Customer Support,Active,7,james.wilson@example.com,2020-10-18
+370,Ethan Robinson,27.0,109488.15,Security,Active,12,ethan.robinson@example.com,2024-01-22
+371,Liam Walker,34.0,50922.92,Marketing,Inactive,1,liam.walker@example.com,2022-08-20
+372,Olivia Clark,38.0,40970.02,Finance,Active,5,olivia.clark@example.com,2018-01-04
+373,John Santos,47.0,33430.98,Product,Active,10,john.santos@example.com,2020-06-23
+374,Laura Martinez,43.0,41947.52,Finance,Active,5,laura.martinez@example.com,2023-01-16
+375,Alice Brown,53.0,53551.85,Operations,Inactive,6,alice.brown@example.com,2019-04-22
+376,Ana Robinson,27.0,101528.54,Sales,Active,2,ana.robinson@example.com,2017-12-06
+377,Laura Flores,42.0,45199.26,Product,Active,10,laura.flores@example.com,2021-05-25
+378,Sarah Smith,36.0,58590.38,Legal,Active,9,sarah.smith@example.com,2018-09-26
+379,Pedro Robinson,,53865.85,HR,Active,4,pedro.robinson@example.com,2021-12-10
+380,Gabriel Torres,27.0,82120.06,IT,Contract,3,gabriel.torres@example.com,2018-09-19
+381,Mateo Lewis,26.0,131193.2,Data,Active,11,mateo.lewis@example.com,2025-01-23
+382,Olivia Brown,29.0,44990.02,R&D,Active,8,olivia.brown@example.com,2019-06-09
+383,Noah Torres,18.0,45647.14,HR,Active,4,noah.torres@example.com,2025-01-27
+384,David Davis,29.0,78077.43,Sales,Inactive,2,david.davis@example.com,2018-10-17
+385,Harper Flores,27.0,68779.57,Operations,Active,6,harper.flores@example.com,2022-01-16
+386,Emily Pereira,35.0,103398.69,Legal,Contract,9,emily.pereira@example.com,2017-04-20
+387,Bob Anderson,37.0,66461.28,Operations,Active,6,bob.anderson@example.com,2023-10-13
+388,Chris Pereira,51.0,47774.52,Sales,Active,2,chris.pereira@example.com,2018-01-01
+389,Isabella Miller,,66617.94,Finance,Active,5,isabella.miller@example.com,2024-08-21
+390,Ava Moore,29.0,79861.27,Product,Active,10,ava.moore@example.com,2020-07-10
+391,Ana Young,26.0,72198.08,HR,Inactive,4,ana.young@example.com,2016-12-11
+392,Liam Silva,38.0,64701.9,Customer Support,Inactive,7,liam.silva@example.com,2019-08-20
+393,Henry Wright,22.0,78695.1,Legal,Active,9,henry.wright@example.com,2023-10-18
+394,Mateo Clark,50.0,81572.99,Product,Active,10,mateo.clark@example.com,2016-10-05
+395,Julia King,45.0,87882.47,Product,Contract,10,julia.king@example.com,2022-04-04
+396,Isabella Pereira,30.0,67985.41,Data,Active,11,isabella.pereira@example.com,2021-01-26
+397,Bob Wilson,19.0,51098.41,Data,On Leave,11,bob.wilson@example.com,2019-02-05
+398,Sophia Harris,46.0,57030.97,Legal,Active,9,sophia.harris@example.com,2023-07-22
+399,Noah Miller,33.0,82642.4,Marketing,Active,1,noah.miller@example.com,2016-07-10
+400,Daniel Thompson,45.0,40703.63,Product,Active,10,daniel.thompson@example.com,2020-12-22
+401,Olivia Marques,20.0,61638.11,Data,Active,11,olivia.marques@example.com,2021-01-25
+402,Emily Thomas,29.0,47208.6,Security,Active,12,emily.thomas@example.com,2016-11-11
+403,John Young,34.0,54724.17,Finance,Active,5,john.young@example.com,2017-05-11
+404,Mateo Torres,34.0,84749.76,Marketing,Active,1,mateo.torres@example.com,2020-02-05
+405,James Johnson,30.0,57923.86,IT,On Leave,3,james.johnson@example.com,2021-05-13
+406,Liam Robinson,40.0,55064.08,Finance,On Leave,5,liam.robinson@example.com,2016-07-13
+407,James Scott,24.0,33659.49,Security,Inactive,12,james.scott@example.com,2016-02-12
+408,Emily Martin,33.0,70346.53,Finance,Active,5,emily.martin@example.com,2017-12-04
+409,Noah White,35.0,67908.7,Operations,Active,6,noah.white@example.com,2020-11-16
+410,Evelyn Moore,39.0,115513.09,Operations,Active,6,evelyn.moore@example.com,2016-05-27
+411,Rafael Martin,40.0,48643.7,Marketing,Active,1,rafael.martin@example.com,2023-05-01
+412,Chris Martinez,24.0,58495.35,IT,Active,3,chris.martinez@example.com,2017-07-08
+413,Chris Davis,20.0,59117.62,IT,Active,3,chris.davis@example.com,2023-09-22
+414,Bob Thomas,45.0,94099.56,Product,Active,10,bob.thomas@example.com,2018-01-17
+415,Isabella Pereira,37.0,52399.2,Data,Active,11,isabella.pereira@example.com,2019-06-19
+416,James Wright,27.0,59734.05,Customer Support,On Leave,7,james.wright@example.com,2020-10-15
+417,David Scott,48.0,67021.17,Sales,Active,2,david.scott@example.com,2019-06-22
+418,Isabella Allen,35.0,57832.91,IT,Active,3,isabella.allen@example.com,2016-03-27
+419,Mia Gomez,45.0,46339.42,Security,Active,12,mia.gomez@example.com,2025-01-31
+420,Rafael Flores,35.0,57984.53,Data,Active,11,rafael.flores@example.com,2018-11-12
+421,Mateo Miller,53.0,78886.95,Marketing,Inactive,1,mateo.miller@example.com,2017-05-11
+422,Alice King,50.0,37824.78,Sales,Active,2,alice.king@example.com,2017-04-28
+423,Logan Garcia,32.0,56757.29,Security,Inactive,12,logan.garcia@example.com,2025-09-29
+424,Jane Miller,43.0,42402.29,Legal,Active,9,jane.miller@example.com,2017-03-25
+425,Liam Pereira,40.0,82311.52,HR,Active,4,liam.pereira@example.com,2019-06-19
+426,Julia Doe,46.0,31789.29,Customer Support,Active,7,julia.doe@example.com,2016-09-03
+427,Mia Pereira,25.0,44550.44,Customer Support,Active,7,mia.pereira@example.com,2023-05-09
+428,Alice Jackson,40.0,61822.59,R&D,Active,8,alice.jackson@example.com,2021-12-19
+429,Gabriel Silva,44.0,93707.49,Operations,Active,6,gabriel.silva@example.com,2021-05-02
+430,Mateo Martinez,18.0,52943.86,IT,Active,3,mateo.martinez@example.com,2024-07-22
+431,Olivia King,23.0,44608.52,Operations,Active,6,olivia.king@example.com,2021-09-24
+432,Mariana Miller,18.0,104652.96,Finance,Active,5,mariana.miller@example.com,2025-07-21
+433,Gabriel Lee,32.0,32636.78,Security,Active,12,gabriel.lee@example.com,2022-03-24
+434,Elijah Lewis,40.0,25094.85,Operations,Active,6,elijah.lewis@example.com,2019-07-18
+435,Logan Wilson,48.0,63196.55,Product,Contract,10,logan.wilson@example.com,2016-05-14
+436,Mariana Wright,35.0,,Product,Active,10,mariana.wright@example.com,2023-04-02
+437,Elijah Flores,49.0,37894.77,Sales,Inactive,2,elijah.flores@example.com,2019-09-26
+438,James Allen,22.0,69419.62,Marketing,Active,1,james.allen@example.com,2021-12-28
+439,Ana Johnson,,59002.21,IT,Active,3,ana.johnson@example.com,2024-10-05
+440,Camila Miller,34.0,44470.11,IT,Active,3,camila.miller@example.com,2016-01-28
+441,Logan Garcia,37.0,34609.85,Product,Active,10,logan.garcia@example.com,2023-08-06
+442,Logan Moore,34.0,73523.48,Marketing,Active,1,logan.moore@example.com,2020-05-08
+443,Harper Gomez,18.0,68020.91,Data,Active,11,harper.gomez@example.com,2017-03-29
+444,John Santos,33.0,52328.08,Sales,Active,2,john.santos@example.com,2021-10-28
+445,Camila Young,22.0,103396.14,Finance,Active,5,camila.young@example.com,2021-04-29
+446,Bob White,40.0,37252.35,R&D,Active,8,bob.white@example.com,2024-06-03
+447,Beatriz Walker,37.0,31763.28,Data,Active,11,beatriz.walker@example.com,2021-03-19
+448,Mariana Wright,26.0,42524.35,Customer Support,Active,7,mariana.wright@example.com,2024-04-09
+449,Bob Harris,29.0,53318.83,R&D,Inactive,8,bob.harris@example.com,2021-06-11
+450,Mia Marques,24.0,58992.69,Product,Contract,10,mia.marques@example.com,2020-06-20
+451,Laura Robinson,33.0,49789.9,R&D,Active,8,laura.robinson@example.com,2019-09-17
+452,Mariana Wright,43.0,61280.65,Customer Support,Active,7,mariana.wright@example.com,2017-09-26
+453,David Doe,25.0,34960.05,Finance,Active,5,david.doe@example.com,2021-11-02
+454,Ava Thomas,39.0,89797.97,HR,Active,4,ava.thomas@example.com,2021-06-10
+455,Isabella Marques,29.0,52640.82,Legal,Active,9,isabella.marques@example.com,2025-10-03
+456,John Marques,27.0,80101.79,Sales,Active,2,john.marques@example.com,2020-02-15
+457,Elijah Miller,33.0,61080.86,Operations,Active,6,elijah.miller@example.com,2020-03-19
+458,Liam Moore,25.0,63567.88,Customer Support,Active,7,liam.moore@example.com,2017-08-21
+459,Camila Moore,29.0,66132.7,Sales,Active,2,camila.moore@example.com,2021-12-22
+460,Chris Flores,23.0,63366.97,Finance,Active,5,chris.flores@example.com,2024-06-23
+461,James Gomez,52.0,67843.1,Data,Active,11,james.gomez@example.com,2018-06-24
+462,Mia Young,34.0,86267.08,Data,Active,11,mia.young@example.com,2016-02-03
+463,Gabriel Torres,28.0,58033.89,Product,Inactive,10,gabriel.torres@example.com,2022-11-30
+464,Ava Scott,36.0,69435.35,R&D,Active,8,ava.scott@example.com,2016-04-24
+465,Ana Anderson,33.0,52501.26,Legal,Active,9,ana.anderson@example.com,2020-02-03
+466,Henry White,,89683.41,Data,Active,11,henry.white@example.com,2022-02-15
+467,Lucas Taylor,40.0,42755.91,Finance,Active,5,lucas.taylor@example.com,2019-11-10
+468,Emily Martinez,41.0,101755.6,Marketing,Active,1,emily.martinez@example.com,2018-08-09
+469,Elijah Lewis,,53420.23,HR,Active,4,elijah.lewis@example.com,2023-12-28
+470,Lucas Martinez,29.0,32834.29,Customer Support,Active,7,lucas.martinez@example.com,2019-01-04
+471,John Robinson,32.0,56660.72,Product,Active,10,john.robinson@example.com,2017-10-19
+472,Isabella Flores,18.0,42686.24,Marketing,Active,1,isabella.flores@example.com,2019-11-19
+473,Chris Wright,20.0,72709.35,Marketing,Active,1,chris.wright@example.com,2017-04-25
+474,Rafael Torres,46.0,43113.08,HR,On Leave,4,rafael.torres@example.com,2022-11-26
+475,Benjamin Lewis,49.0,46343.48,Finance,Active,5,benjamin.lewis@example.com,2023-02-06
+476,Ana Santos,32.0,27963.65,HR,Contract,4,ana.santos@example.com,2016-02-23
+477,Henry Scott,39.0,46244.27,IT,Active,3,henry.scott@example.com,2022-12-12
+478,Logan White,37.0,23193.85,Finance,Active,5,logan.white@example.com,2018-12-27
+479,Ava Pereira,62.0,31120.87,Finance,Active,5,ava.pereira@example.com,2022-07-24
+480,Henry Martin,44.0,70696.06,Operations,Active,6,henry.martin@example.com,2023-01-24
+481,Elijah Johnson,33.0,71326.99,Sales,On Leave,2,elijah.johnson@example.com,2018-10-11
+482,Logan Torres,25.0,62875.39,Marketing,Active,1,logan.torres@example.com,2017-11-08
+483,Henry Hall,20.0,38621.27,R&D,Active,8,henry.hall@example.com,2024-04-05
+484,Mariana Wright,36.0,53279.19,Security,Active,12,mariana.wright@example.com,2023-05-23
+485,Alice Taylor,27.0,54108.1,Customer Support,Inactive,7,alice.taylor@example.com,2024-05-15
+486,Lucas Lewis,21.0,36118.93,IT,Active,3,lucas.lewis@example.com,2020-05-10
+487,Sarah Wright,28.0,91691.91,IT,On Leave,3,sarah.wright@example.com,2020-07-24
+488,Sarah Silva,24.0,73649.81,Customer Support,Active,7,sarah.silva@example.com,2019-06-10
+489,Camila Smith,49.0,50144.42,Legal,Active,9,camila.smith@example.com,2020-12-27
+490,Chris Young,42.0,54688.57,Security,Active,12,chris.young@example.com,2022-06-19
+491,Chris Davis,34.0,,HR,Active,4,chris.davis@example.com,2024-02-22
+492,Gabriel Garcia,47.0,26513.06,Legal,Active,9,gabriel.garcia@example.com,2017-10-30
+493,Amelia Allen,35.0,49686.47,Legal,Active,9,amelia.allen@example.com,2020-01-20
+494,Michael Lewis,26.0,42672.31,Data,Active,11,michael.lewis@example.com,2020-08-11
+495,Rafael Hall,48.0,38155.8,Operations,Active,6,rafael.hall@example.com,2020-11-17
+496,Logan Flores,39.0,49100.03,Sales,Active,2,logan.flores@example.com,2021-06-02
+497,Rafael Johnson,25.0,101639.78,Customer Support,Active,7,rafael.johnson@example.com,2024-01-06
+498,Emily Thompson,32.0,67798.48,Security,Active,12,emily.thompson@example.com,2024-11-10
+499,James Martin,26.0,44359.73,Marketing,Contract,1,james.martin@example.com,2017-08-04
+500,Michael King,22.0,66197.9,Customer Support,Active,7,michael.king@example.com,2023-02-15
